@@ -18,7 +18,7 @@ rm -f /usr/local/sbin/enosxintel.SafePublicKey
 
 kextunload -b com.GSI.kext.gsidrv
 
-# Remove the kernel extension, which actually a folder
+# Remove the kernel extension, which is actually a folder
 
 rm -fr /Library/Extensions/gsidrv.kext
 
