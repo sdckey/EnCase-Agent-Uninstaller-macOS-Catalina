@@ -2,6 +2,8 @@
 
 This is a signed, notarized uninstaller PKG file for the EnCase Enterprise/Direct agent installed on macOS 10.15 (Catalina).
 
+Provided that macOS has been instructed to allow apps from the App Store and identified developers (a setting on the Security & Privacy preferences page), the PKG file should open without warning.
+
 It is not an official OpenText product and consists solely of a `postinstall` BASH script, which is rudimentary in nature.
 
 The script performs no validation nor will it report anything other than a successful execution.
